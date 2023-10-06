@@ -33,3 +33,36 @@ git clone https://github.com/tuusuario/nombre-del-repo.git
    - En una terminal, navega a la ubicación del archivo `main.js`.
    - Ejecuta `node main.js` para iniciar la parte de JavaScript.
 
+### Comandos utilizados para generar la documentación.
+
+**Javadoc**
+
+```bash
+javadoc '/home/usuario-m/Documentos/Despliegue/PojectoEvaluable1/Projecto1/src/java/Libro.java' '/home/usuario-m/Documentos/Despliegue/PojectoEvaluable1/Projecto1/src/java/Main.java' '/home/usuario-m/Documentos/Despliegue/PojectoEvaluable1/Projecto1/src/java/Reserva.java' --ignore-source-errors
+```
+
+**JsDoc**
+```bash
+jsdoc ../../src/js/*
+```
+
+### Estructura de directorios en formato árbol.
+
+|-- PROJECTO1
+|   |-- /src
+|   |   |-- /java
+|   |   |   |-- Main.java
+|   |   |   |-- Libro.java
+|   |   |   |-- Reserva.java
+|   |   |-- /js
+|   |   |   |-- main.js
+|   |   |   |-- Libro.js
+|   |   |   |-- Reserva.js
+|   |   |-- /css
+|   |   |   |-- style.css
+|   |-- /docs
+|   |   |-- /javadoc
+|   |   |-- /jsdoc
+|   |-- README.md
+|   |-- CHANGELOG.md
+
