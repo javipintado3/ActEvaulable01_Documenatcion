@@ -47,7 +47,7 @@ jsdoc ../../src/js/*
 ```
 
 ### Estructura de directorios en formato árbol.
-
+```
 |-- PROJECTO1
 |   |-- /src
 |   |   |-- /java
@@ -65,4 +65,5 @@ jsdoc ../../src/js/*
 |   |   |-- /jsdoc
 |   |-- README.md
 |   |-- CHANGELOG.md
+```
 
